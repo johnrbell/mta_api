@@ -20,7 +20,7 @@
 
 Request a single train with the q=name parameter. 
 
-GET: `/api?q=L`
+GET: `/api/v1/trains/L`
 ```json
 {
     "train":"L",
@@ -31,7 +31,7 @@ You can requst the detailed status of the train with the long=true param. By def
 
 This detailed response is kinda shitty. *Accepting pull requests for whoever wants to attempt cleaning it up.* 
 
-GET: `/api?q=L&long=true`
+GET: `api/v1/trains/L?long=true`
 ```json
 {
     "train":"L",
@@ -49,7 +49,7 @@ GET: `/api?q=L&long=true`
 
 or you can get all the trains: 
 
-GET `/api`
+GET `/api/v1/trains`
 ```json
 [
   {
