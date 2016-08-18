@@ -1,3 +1,23 @@
+# MTA API 
+
+## Setup
+
+1. Install gems:
+
+    ```
+    bundle install
+    ```
+
+1. Start the server:
+
+    ```
+    rackup
+    ```
+
+---
+
+## Usage
+
 Request a single train with the q=name parameter. 
 
 GET: `/api?q=L`
@@ -16,7 +36,7 @@ GET: `/api?q=L&long=true`
 {
     "train":"L",
     "status":"DELAYS",
-    "detail":"\n                    
+    "info":"\n                    
 <span class=\"TitleDelay\">Delays</span>\n
 <span class=\"DateStyle\">\n                    &nbsp;Posted:&nbsp;08/18/2016&nbsp; 1:51PM\n                    </span>
 <br/>
