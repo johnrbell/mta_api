@@ -18,7 +18,7 @@
 
 ## Usage
 
-Request a single train with the q=name parameter. 
+Request a single train:. 
 
 GET: `/api/v1/trains/L`
 ```json
