@@ -16,7 +16,7 @@ GET: `/api?q=L&long=true`
 {
     "train":"L",
     "status":"DELAYS",
-    "info":"\n                    
+    "detail":"\n                    
 <span class=\"TitleDelay\">Delays</span>\n
 <span class=\"DateStyle\">\n                    &nbsp;Posted:&nbsp;08/18/2016&nbsp; 1:51PM\n                    </span>
 <br/>
