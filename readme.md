@@ -34,16 +34,9 @@ This detailed response is kinda shitty. *Accepting pull requests for whoever wan
 GET: `api/v1/trains/L?long=true`
 ```json
 {
-    "train":"L",
-    "status":"DELAYS",
-    "info":"\n                    
-<span class=\"TitleDelay\">Delays</span>\n
-<span class=\"DateStyle\">\n                    &nbsp;Posted:&nbsp;08/18/2016&nbsp; 1:51PM\n                    </span>
-<br/>
-<br/>\n                  Following an earlier incident at
-<STRONG>Sutter Av</STRONG>, [L] train service has resumed with residual delays.\n
-<br/>
-<br/>\n              "
+  "train":"C",
+  "status":"DELAYS",
+  "detail":"Delays Posted: 08/18/2016 6:09PM Due to an earlier incident at Jackson Hts-Roosevelt Av, [E] and [F] service has resumed with residual delays. "
 }
 ```
 
