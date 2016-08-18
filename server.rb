@@ -57,7 +57,7 @@ class Application<Sinatra::Base
   def cleanUpDetail(long_status) #start of cleaning up detail response (fuuuuuuuck)
     long_status.map! do |train| 
         train = train.text.to_s #reduces nokogiri object to simple array. 
-        train = train.gsub(/\n+ */, "").gsub("&nbsp;","").gsub('<br/>','')
+        train = train.gsub(/\n+ */, "").gsub("&nbsp;"," ").gsub("<br/>"," ")
         p train    
       end 
     
